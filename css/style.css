@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+
+#main {
+  padding: 150px 0;
+  background: tomato;
+}
+
+.contactBtn{
+    border-radius: 18px;
+    background: #8454F5;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Nunito", serif;
+    padding: 18px 28px;
+}
+.nav-link{
+    color: #29313D;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Open Sans", serif;
+    padding: 0 15px !important;
+}
