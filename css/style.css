@@ -25,16 +25,13 @@ p {
   line-height: 0.8;
 }
 
-#main {
-  padding: 150px 0;
-  background: tomato;
-}
 nav.navbar.navbar-expand-lg {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   background: #f9feff;
+  padding: 20px 0;
 }
 
 .contactBtn {
@@ -132,6 +129,13 @@ nav.navbar.navbar-expand-lg {
 #launchApp {
   margin-bottom: 100px;
 }
+.launchImg picture img {
+  height: 550px;
+}
+.resourceImg{
+  height: 550px;
+}
+
 .commonTexts h4 {
   padding-top: 20px;
   padding-bottom: 18px;
@@ -256,6 +260,9 @@ nav.navbar.navbar-expand-lg {
   text-transform: capitalize;
   padding-top: 20px;
 }
+.icons {
+  display: flex;
+}
 .socialIcons{
   padding: 20px;
   text-align: center;
@@ -281,6 +288,9 @@ nav.navbar.navbar-expand-lg {
   line-height: 160%;
   text-transform: capitalize;
   margin-top: 10px;
+}
+.nameDate {
+	padding-left: 5px;
 }
 .nameDate p{
   color: #29313d;

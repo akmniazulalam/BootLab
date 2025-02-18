@@ -30,17 +30,19 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
   </head>
   <body>
     <section id="banner">
-      <nav class="navbar navbar-expand-lg" style="padding-top: 20px; padding-bottom: 20px;">
+      <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="#">
             <picture>
               <img src="images/Logo.png" alt="Logo.png" />
             </picture>
           </a>
-          <button
+          <div class="togglerBtn">
+            <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -49,10 +51,11 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+          <i class="fa-solid fa-bars"></i>
           </button>
+          </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav m-auto">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#"
                   >Home <i class="fa-solid fa-angle-down"></i
@@ -84,8 +87,8 @@
                 ></a>
               </li>
             </ul>
+            <a href="#" class="contactBtn">Contact Us</a>
           </div>
-          <a href="#" class="contactBtn">Contact Us</a>
         </div>
       </nav>
       <div class="container">
@@ -158,14 +161,15 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-5">
-            <picture>
-              <img
-                src="images/Screenshot_3.png"
-                alt="Screenshot_3.png"
-                style="height: 550px"
-                class="img-fluid"
-              />
-            </picture>
+            <div class="launchImg">
+              <picture>
+                <img
+                  src="images/Screenshot_3.png"
+                  alt="Screenshot_3.png"
+                  class="img-fluid"
+                />
+              </picture>
+            </div>
           </div>
           <div class="col-lg-7">
             <div class="commonTitle">
@@ -188,23 +192,27 @@
             </div>
             <div class="row">
               <div class="col-lg-6">
-                <picture>
-                  <img src="images/Image_4.png" alt="Image_4.png" />
-                </picture>
-                <div class="commonTexts">
-                  <h4>Carefully designed</h4>
-                  <p>Jolly good excuse my french boot super my good sir cup</p>
-                  <a href="#">Read More</a>
+                <div class="launchCommonTexts">
+                  <picture>
+                    <img src="images/Image_4.png" alt="Image_4.png" />
+                  </picture>
+                  <div class="commonTexts">
+                    <h4>Carefully designed</h4>
+                    <p>Jolly good excuse my french boot super my good sir cup</p>
+                    <a href="#">Read More</a>
+                  </div>
                 </div>
               </div>
               <div class="col-lg-6">
-                <picture>
-                  <img src="images/Image_5.png" alt="Image_5.png" />
-                </picture>
-                <div class="commonTexts">
-                  <h4>Seamless Sync</h4>
-                  <p>Jolly good excuse my french boot super my good sir cup</p>
-                  <a href="#">Read More</a>
+                <div class="launchCommonTexts">
+                  <picture>
+                    <img src="images/Image_5.png" alt="Image_5.png" />
+                  </picture>
+                  <div class="commonTexts">
+                    <h4>Seamless Sync</h4>
+                    <p>Jolly good excuse my french boot super my good sir cup</p>
+                    <a href="#">Read More</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -217,7 +225,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-7">
-            <div class="commonTitle">
+            <div class="commonTitle resourceHeading">
               <h3
                 style="
                   text-align: left;
@@ -238,23 +246,27 @@
             </div>
             <div class="row">
               <div class="col-lg-6">
-                <picture>
-                  <img src="images/Image_4.png" alt="Image_4.png" />
-                </picture>
-                <div class="commonTexts">
-                  <h4>User interface</h4>
-                  <p>Jolly good excuse my french boot super my good sir cup</p>
-                  <a href="#">Read More</a>
+                <div class="launchCommonTexts">
+                  <picture>
+                    <img src="images/Image_20.png" alt="Image_20.png" />
+                  </picture>
+                  <div class="commonTexts">
+                    <h4>User interface</h4>
+                    <p>Jolly good excuse my french boot super my good sir cup</p>
+                    <a href="#">Read More</a>
+                  </div>
                 </div>
               </div>
               <div class="col-lg-6">
-                <picture>
-                  <img src="images/Image_5.png" alt="Image_5.png" />
-                </picture>
-                <div class="commonTexts">
-                  <h4>Choose a app</h4>
-                  <p>Jolly good excuse my french boot super my good sir cup</p>
-                  <a href="#">Read More</a>
+                <div class="launchCommonTexts">
+                  <picture>
+                    <img src="images/Image_21.png" alt="Image_21.png" />
+                  </picture>
+                  <div class="commonTexts">
+                    <h4>Choose a app</h4>
+                    <p>Jolly good excuse my french boot super my good sir cup</p>
+                    <a href="#">Read More</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -264,7 +276,8 @@
               <img
                 src="images/Screenshot_5.png"
                 alt="Screenshot_3.png"
-                style="height: 550px; width: 100%"
+                
+                class="resourceImg w-100 img-fluid"
               />
             </picture>
           </div>
@@ -285,7 +298,7 @@
             The app provide design and digital marketing
           </p>
         </div>
-        <div class="row">
+        <div class="row phones">
           <div class="col-lg-3">
             <picture>
               <img
@@ -406,7 +419,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <div class="commonTitle">
+            <div class="commonTitle globalCompaniesTitle">
               <h3
                 style="
                   padding-bottom: 60px;
@@ -419,7 +432,7 @@
             </div>
           </div>
           <div class="offset-lg-4 col-lg-2" style="margin-top: 40px; text-align: end;">
-            <a href="#" class="contactBtn">View All</a>
+            <a href="#" class="contactBtn viewAll">View All</a>
           </div>
         </div>
         <div class="row">
@@ -550,7 +563,7 @@
 
     <section id="packages">
       <div class="container">
-        <div class="commonTitle">
+        <div class="commonTitle packageTitle">
           <h3 style="padding-top: 120px; padding-bottom: 30px">
             15 -day free trail
           </h3>
@@ -598,7 +611,7 @@
                   <div class="col-lg-4">
                     <h5>$500</h5>
                   </div>
-                  <div class="col-lg-6 offset-lg-2" style="text-align: right">
+                  <div class="col-lg-6 offset-lg-2 basic_button" style="text-align: right">
                     <a
                       href="#"
                       class="contactBtn"
@@ -681,7 +694,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="basic">
+            <div class="basic standard">
               <div class="basicHeading">
                 <div class="basicTitle">
                   <h6>Standard</h6>
@@ -695,7 +708,7 @@
                   <div class="col-lg-4">
                     <h5>$720</h5>
                   </div>
-                  <div class="col-lg-6 offset-lg-2" style="text-align: right">
+                  <div class="col-lg-6 offset-lg-2 basic_button" style="text-align: right">
                     <a
                       href="#"
                       class="contactBtn"
@@ -777,7 +790,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="basic">
+            <div class="basic premium">
               <div class="basicHeading">
                 <div class="basicTitle">
                   <h6>Premium</h6>
@@ -791,7 +804,7 @@
                   <div class="col-lg-4">
                     <h5>$1200</h5>
                   </div>
-                  <div class="col-lg-6 offset-lg-2" style="text-align: right">
+                  <div class="col-lg-6 offset-lg-2 basic_button" style="text-align: right">
                     <a
                       href="#"
                       class="contactBtn"
@@ -895,19 +908,23 @@
                     <h5>Follow us</h5>
                   </div>
                 </div>
-                <div class="col-lg-1" style="margin-right: 20px">
-                  <div class="socialIcons">
-                    <i class="fa-brands fa-facebook-f"></i>
-                  </div>
-                </div>
-                <div class="col-lg-1" style="margin-right: 20px">
-                  <div class="socialIcons">
-                    <i class="fa-brands fa-instagram"></i>
-                  </div>
-                </div>
-                <div class="col-lg-1">
-                  <div class="socialIcons">
-                    <i class="fa-brands fa-youtube"></i>
+                <div class="col-lg-4">
+                  <div class="icons">
+                    <div class="col-lg-4">
+                      <div class="socialIcons">
+                        <i class="fa-brands fa-facebook-f"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="socialIcons">
+                        <i class="fa-brands fa-instagram"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="socialIcons">
+                        <i class="fa-brands fa-youtube"></i>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -930,7 +947,7 @@
                 <div class="postsHeading">
                   <h6>2022 A year of Booming 2023 the year for booming</h6>
                 </div>
-                <div class="row" style="margin-top: 20px">
+                <div class="flex" style="margin-top: 20px; display: flex;">
                   <div class="col-lg-2">
                     <picture>
                       <img
@@ -947,7 +964,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="bannerText">
+                <div class="bannerText post_paragraph">
                   <p style="margin-top: 20px; font-size: 16px; width: 372px">
                     Jolly good excuse my french boot super my good sir cup of
                     char richard about chinwag.
@@ -955,7 +972,7 @@
                 </div>
               </div>
             </div>
-            <div class="row" style="margin-top: 20px; margin-bottom: 40px">
+            <div class="row post_row" style="margin-top: 20px; margin-bottom: 40px">
               <div class="col-lg-5">
                 <picture>
                   <img
@@ -969,7 +986,7 @@
                 <div class="postsHeading">
                   <h6>Stay in the Present with these 10 Technology Blogs</h6>
                 </div>
-                <div class="row" style="margin-top: 20px">
+                <div class="flex" style="margin-top: 20px; display: flex;">
                   <div class="col-lg-2">
                     <picture>
                       <img
@@ -986,7 +1003,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="bannerText">
+                <div class="bannerText posts_paragraph">
                   <p
                     style="
                       margin-top: 20px;
@@ -1001,7 +1018,7 @@
                 </div>
               </div>
             </div>
-            <a href="#" class="contactBtn">View All</a>
+            <a href="#" class="contactBtn post_btn">View All</a>
           </div>
           <div class="col-lg-4">
             <hr style="background: #000; height: 2px; margin-bottom: 20px" />
