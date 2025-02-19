@@ -31,7 +31,7 @@
   }
   nav.navbar.navbar-expand-lg {
     width: 100%;
-    background: transparent;
+    background: #f9feffde;
   }
   .contactBtn {
 	border-radius: 12px;
@@ -75,7 +75,7 @@
 	font-family: "Nunito", serif;
 	line-height: 160%;
 	padding-bottom: 29px;
-	width: 281px;
+	width: 99%;
 }
 #service {
 	margin: 70px 0;
@@ -105,13 +105,14 @@
 }
 .launchImg picture img {
     height: 100%;
+	width: 100%;
 }
 .launchCommonTexts {
 	text-align: center;
 	margin-bottom: 40px;
 }
 .launchCommonTexts p {
-	width: 296px;
+	width: 100%;
 }
 #launchApp {
 	margin-bottom: 0px;
@@ -131,9 +132,15 @@
 	padding-bottom: 55px;
 }
 .phones picture img{
-    width: 295px !important;
+    width: 90% !important;
     margin-bottom: 25px;
-    height: 450px !important;
+    height: 100% !important;
+}
+.phone{
+	margin-bottom: 30px;
+}
+.row.phones {
+	text-align: center;
 }
 #globalCompanies {
 	margin: 75px 0;
@@ -145,8 +152,9 @@
 .companies {
 	margin-right: 0;
 	margin-bottom: 22px;
-	width: 88%;
-	margin-left: 18px;
+}
+.company{
+	justify-content: center;
 }
 .viewAll{
     display: none;
@@ -183,7 +191,7 @@
 }
 #recentPosts {
 	margin-top: 1750px;
-	margin-bottom: 120px;
+	margin-bottom: 75px;
 }
 .standard{
 	height: 590px;
@@ -193,6 +201,9 @@
 }
 .followUs {
 	text-align: center;
+}
+.flex {
+	justify-content: center;
 }
 .icons {
 	display: flex;
@@ -224,5 +235,54 @@
 }
 .post_row{
 	margin-bottom: 10px !important;
+}
+#startProject {
+	padding: 75px 0;
+}
+.projectBox {
+	padding: 40px 0;
+	border-radius: 55px;
+	text-align: center;
+}
+.projectBoxTitle h3 {
+	font-size: 28px;
+}
+.letsTalk{
+	margin-top: 20px !important;
+}
+#footer {
+	margin-top: 55px;
+	margin-bottom: 20px;
+}
+.logoFooterText{
+	text-align: center;
+}
+.footerText p {
+	line-height: 160%;
+	font-size: 16px;
+	padding-top: 30px;
+	padding-bottom: 35px;
+}
+.footerHeading h5 {
+	padding-bottom: 30px;
+	padding-top: 18px;
+	text-align: center;
+}
+.footerListing ul li a {
+	font-size: 18px;
+	padding-bottom: 15px;
+}
+.footerListing {
+	text-align: center;
+}
+.copyright p {
+	font-size: 16px;
+	padding-top: 14px;
+	padding-left: 0 !important;
+	text-align: center;
+	padding-bottom: 5px;
+}
+.privacyPolicy{
+	padding-left: 10px;
 }
 }
