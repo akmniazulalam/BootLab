@@ -97,9 +97,9 @@ nav.navbar.navbar-expand-lg {
   transition: 0.4s;
 }
 .ImgWithTextBtn:hover {
-  box-shadow: 2px 17px 16px 8px rgba(248, 248, 248, 0.8);
-  -webkit-box-shadow: 2px 17px 16px 8px rgba(248, 248, 248, 0.8);
-  -moz-box-shadow: 2px 17px 16px 8px rgba(248, 248, 248, 0.8);
+  box-shadow: 2px 17px 16px 10px rgba(248, 248, 248, 0.8);
+  -webkit-box-shadow: 2px 17px 16px 10px rgba(248, 248, 248, 0.8);
+  -moz-box-shadow: 2px 17px 16px 10px rgba(248, 248, 248, 0.8);
   background: #fff;
 }
 .ImgWithTextBtn h4 {
@@ -334,6 +334,9 @@ nav.navbar.navbar-expand-lg {
 #footer{
   margin-top: 140px;
   margin-bottom: 60px;
+}
+.footerText {
+  width: 100%;
 }
 .footerText p{
   line-height: 180%;
